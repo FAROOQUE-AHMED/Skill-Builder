@@ -1,4 +1,4 @@
-# 🧠 PRACTICE
+# 🧠 Skill-Builder
 
 Welcome to my personal programming practice repository!
 
