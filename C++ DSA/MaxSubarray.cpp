@@ -43,8 +43,8 @@ using namespace std;
 //--------------------USING KADANE'S ALGORITHM ( max sub array)---------------------------
 int main()
 {
-    vector<int> vec = {3, -4, 5, 4, -1, 6, -8};
-    int maxSum = 0, curSum = 0;
+    vector<int> vec = {-3, -41, 5, -4, -1, -6, -8};
+    int maxSum = INT_MIN, curSum = 0;
     for (int st : vec)
     {
         curSum = curSum + st;

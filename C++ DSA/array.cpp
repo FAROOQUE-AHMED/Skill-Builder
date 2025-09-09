@@ -21,13 +21,13 @@ int main()
 
     int min = marks[0], index = 0;
 
-    for (i = 0; i < size - 1; i++)
+    for (i = 1; i < size; i++)
     {
 
-        if (marks[i + 1] < marks[i])
+        if (marks[i] < min)
         {
-            min = marks[i + 1];
-            index = i + 1;
+            min = marks[i];
+            index = i;
         }
     }
     cout << "minimum " << min << " at index " << index << endl;
